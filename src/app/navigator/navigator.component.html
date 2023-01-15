@@ -1,11 +1,16 @@
 <div class="navigator">
-  <div class="navigator-button">
+  <div class="navigator-button" [routerLink]="['home']">
     Menu
   </div>
-  <div class="navigator-button">
+  <div class="navigator-button" [routerLink]="['settings']">
     Settings
   </div>
-  <div class="navigator-button">
+  <div class="navigator-button" [routerLink]="['sign-in']">
     Sign in
   </div>
 </div>
+
+<!--1.  Generowanie komponentu `content-sign-in`-->
+<!--2.  Dodanie route do app-routing.module.ts -->
+<!--3.  Dopisanie routerLink w navigatorze-->
+<!--4.  Edytowanie treści by był inny napis i ładny kolor-->
